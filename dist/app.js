@@ -697,21 +697,21 @@ var Qe = (0, _gsap.gsap);
         }, 0).to(o, {
             height: "100%",
             duration: 1
-        }, .5).to(p, {
+        }, .2).to(p, {
             width: "100%",
             duration: 1,
             ease: "power4.out",
             stagger: {
                 amount: .3
             }
-        }, 1).to(a, {
+        }, .4).to(a, {
             clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
             duration: 1,
             stagger: {
                 amount: 1.3,
                 from: "end"
             }
-        }, 1.2), Sc.create({
+        }, 1.7), Sc.create({
             trigger: t,
             animation: tl,
             toggleActions: "play none none none",

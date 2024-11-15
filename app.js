@@ -135,11 +135,11 @@ Reeller.registerGSAP(gsap);
     
           tl
           .to(i, {width: "100%", duration: 1}, 0)
-          .to(o, {height: "100%", duration: 1}, .5)
-          .to(p, {width: "100%", duration:1, ease: "power4.out", stagger: { amount: .3 }}, 1)
+          .to(o, {height: "100%", duration: 1}, .2)
+          .to(p, {width: "100%", duration:1, ease: "power4.out", stagger: { amount: .3 }}, .4)
           .to(a, 
             { clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", duration: 1, stagger: { amount: 1.3, from: "end"} }
-          , 1.2 ),      
+          , 1.7 ),      
     
           Sc.create({ trigger: t, animation: tl, toggleActions: "play none none none", ease: "power4.out"});
           
