@@ -1,7 +1,6 @@
 import  {Reeller} from 'reeller';
 import  {gsap}  from "gsap";
 import  {ScrollTrigger}  from "gsap/ScrollTrigger";
-import  {Swiper}  from 'swiper';
 
 // Register ScrollTrigger with gsap
 gsap.registerPlugin(ScrollTrigger);
@@ -44,7 +43,7 @@ Reeller.registerGSAP(gsap);
             container: rels,
             wrapper: '.ns-reel-logo-wrap',
             itemSelector: '.ns-reel-logo-item',
-            speed: 105,
+            speed: 35,
             reversed: true,
             
         });

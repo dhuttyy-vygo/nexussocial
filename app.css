@@ -200,13 +200,13 @@ html {
 .faq-item .plus:before {
     content: "";
     position: absolute;
-    background-color: #fff;
+    background-color: currentColor;
     transition: opacity .4s cubic-bezier(.65,.05,.36,1),background-color .4s cubic-bezier(.65,.05,.36,1);
 }
 .faq-item .plus:before {
     left: 0;
     top: 50%;
-background-color: #fff;
+background-color: currentColor;
     transform: translateY(-50%);
     width: 100%;
     height: 0.05rem;
@@ -223,7 +223,7 @@ height: 100%;
 .faq-item .plus:after, .faq-item .plus:before {
 content: "";
 position: absolute;
-background-color: #050505;
+background-color: currentColor;
 transition: opacity .4s cubic-bezier(.65,.05,.36,1),background-color .4s cubic-bezier(.65,.05,.36,1);
 }  
 
