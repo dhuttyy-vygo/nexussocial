@@ -1,0 +1,18 @@
+# Parcel cache
+.parcel-cache/
+.parcel-cache 2/
+
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+dist/
+
+# Logs
+*.log
+
+# macOS system files
+.DS_Store
+
+# Environment files
+.env
