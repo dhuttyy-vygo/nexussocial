@@ -5,9 +5,6 @@
 # Node.js dependencies
 node_modules/
 
-# Build artifacts
-dist/
-
 # Logs
 *.log
 
